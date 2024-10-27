@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijan Sarkar | ML Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-text">Srijan Sarkar</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="https://github.com/Srijansarkar17" target="_blank" aria-label="GitHub"><i
+                class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/srijan-sarkar-90177b288/" target="_blank" aria-label="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/srijann16/profilecard/?igsh=a291enB5dXFreHk3" target="_blank"
+            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="grain-overlay"></div>
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="profilepic.jpg" alt="Srijan Sarkar" class="profile-image">
+            </div>
+            <h1 class="glitch-text" data-text="Srijan Sarkar">Srijan Sarkar</h1>
+            <p class="hero-description">Pushing Boundaries with AI</p>
+            <button class="explore-btn">
+                <span class="btn-text">Explore</span>
+                <span class="btn-icon">↓</span>
+            </button>
+        </div>
+        <canvas id="noise-canvas"></canvas>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content hidden">
+        <!-- Add this right after the About Me section's closing paragraph -->
+        <section class="about-section" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <p>Hi, I'm Srijan Sarkar! I'm a dedicated and inquisitive second-year Computer Science and Engineering
+                student specializing in Cyber Security at SRM Institute of Science and Technology. My journey has taken
+                me through diverse projects and hackathons, exploring the realms of machine learning, natural language
+                processing, deep learning, and embedded systems. I'm passionate about building practical solutions, from
+                creating a solar potential estimator for rooftop installations to designing a gunshot detection system
+                with 99.99% accuracy. If there's a model to train or data to analyze, I'm already setting up my
+                environment.
+
+                I've tackled unique projects like a potato leaf disease detector and even crafted an e-business card for
+                seamless information sharing. When I'm not busy debugging, I'm likely organizing events like Pentathon
+                or guiding students with machine learning tasks like Titanic survival prediction and diabetes detection.
+                I enjoy contributing to open-source neural network projects—my way of saying, "if it compiles, I'll
+                commit it!"</p>
+            <a href="https://drive.google.com/file/d/1yF_AEn-inVWylPyedI65Q86WSeXw25UV/view?usp=sharing" class="resume-btn" target="_blank">
+                <span class="btn-text">View Resume</span>
+                <i class="fas fa-file-alt btn-icon"></i>
+            </a>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="projects-section" data-aos="fade-up">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card" data-aos="fade-up">
+                    <h3>Sunscope</h3>
+                    <p>Mapping your rooftop's solar potential.</p>
+                    <div class="project-tech">TensorFlow, Yolov11, Python</div>
+                    <a href="https://github.com/Srijansarkar17/SunScope" class="project-btn" target="_blank">View on
+                        GitHub</a>
+                </article>
+                <article class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Farm-Health</h3>
+                    <p>Your Farm, Our Safety.</p>
+                    <div class="project-tech">TensorFlow, Python, CNN</div>
+                    <a href="https://github.com/Srijansarkar17/ACM_FarmHealth" class="project-btn" target="_blank">View
+                        on GitHub</a>
+                </article>
+                <article class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Movie Recommendation System</h3>
+                    <p>Curates a list of movies according to your choice and love.</p>
+                    <div class="project-tech">TensorFlow, Python, NLP</div>
+                    <a href="https://github.com/Srijansarkar17/MovieRecommendationSystem" class="project-btn"
+                        target="_blank">View on GitHub</a>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="skills-section" data-aos="fade-up">
+            <h2 class="section-title">Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <span>Deep Learning, Computer Vision, NLP, Reinforcement Learning</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <span>C, C++, Python, Java</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <span>TensorFlow, Scikit-Learn, Spacy, Pandas, NLTK, Numpy, Matplotlib, Keras, Flask, OpenCV</span>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & MLOps</h3>
+                    <span>AWS, MLflow, Kubernetes, CI/CD</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section" data-aos="fade-up">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="ntllogo.jpg" alt="Next Tech Lab Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Associate</h3>
+                        <h4>Next Tech Lab · Full-time</h4>
+                        <p class="timeline-date">Aug 2024 - Present · 3 mos</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India</p>
+                        <div class="skill-tag">Machine Learning and Deep Learning</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="blanklinelogo.png" alt="Blankline Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Product Development Intern</h3>
+                        <h4>Blankline · Internship</h4>
+                        <p class="timeline-date">Jul 2024 - Present · 4 mos</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India · Remote</p>
+                        <div class="skill-tag">Product Development</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="swiftlogo.png" alt="Swift Coding Club Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Technical Team Member</h3>
+                        <h4>Swift Coding Club SRM · Full-time</h4>
+                        <p class="timeline-date">Apr 2024 - Present · 7 mos</p>
+                        <div class="skill-tag">Machine Learning</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="acmlogo.png" alt="ACM Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Research and Development Member</h3>
+                        <h4>ACM SIGKDD SRMIST KTR Student Chapter · Full-time</h4>
+                        <p class="timeline-date">Mar 2024 - Present · 8 mos</p>
+                        <div class="skill-tag">Research and Development</div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="ngailogo.jpg" alt="CINTEL Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Technical Team Member</h3>
+                        <h4>CINTEL's Next-Gen AI · Full-time</h4>
+                        <p class="timeline-date">Aug 2023 - Present · 1 yr 3 mos</p>
+                        <div class="skill-tag">Machine Learning and Data Science</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" data-aos="fade-up">
+            <h2 class="section-title">Contact</h2>
+            <p>Let's collaborate on innovative AI projects.</p>
+            <div class="contact-links">
+                <a href="mailto:your.srijanb463@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/srijan-sarkar-90177b288/">LinkedIn</a>
+                <a href="https://github.com/Srijansarkar17">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
